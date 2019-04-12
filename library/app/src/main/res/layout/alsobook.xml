@@ -1,0 +1,140 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="portrait"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+
+    >
+    <RelativeLayout
+
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_A">
+            <Button
+
+                android:layout_width="match_parent"
+
+                android:id="@+id/toAso"
+                android:layout_height="45dp"
+
+                android:text="从借书列表页选择还书用户"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_A"
+            android:id="@+id/add_B">
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="40dp"
+
+                android:text="用户名:"/>
+            <EditText
+                android:id="@+id/alsoBooks_UserId"
+                android:hint="借书用户名/学号"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="5dp"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_B"
+            android:id="@+id/add_C">
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="40dp"
+
+                android:text="借书人:"/>
+            <EditText
+                android:id="@+id/alsoBooks_UserName"
+                android:hint="借书人姓名"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="5dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_C"
+            android:id="@+id/add_D">
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="40dp"
+
+                android:text="书名:"/>
+            <EditText
+                android:id="@+id/alsoBooks_bookname"
+                android:hint="书名"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="5dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_D"
+            android:id="@+id/add_E">
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="40dp"
+
+                android:text="ISBN:"/>
+            <EditText
+                android:id="@+id/alsoBooks_bookISBN"
+                android:hint="ISBN"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="5dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_E"
+            android:id="@+id/add_F">
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+
+                android:id="@+id/alsoBooks_Button"
+                android:layout_height="45dp"
+                android:layout_below="@id/alsoBooks_bookname"
+                android:text="还书"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

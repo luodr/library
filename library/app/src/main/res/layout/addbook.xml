@@ -1,0 +1,169 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="portrait"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+
+    >
+    <RelativeLayout
+
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_A">
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="40dp"
+
+                android:text="书名:"/>
+            <EditText
+                android:id="@+id/add_bookname"
+                android:hint="书名"
+                android:drawablePadding="8dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="5dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_A"
+            android:id="@+id/add_B">
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="40dp"
+
+                android:text="ISBN:"/>
+            <EditText
+                android:id="@+id/add_bookISBN"
+                android:hint="ISBN"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="5dp"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_B"
+            android:id="@+id/add_C">
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="40dp"
+
+                android:text="作者:"/>
+            <EditText
+                android:id="@+id/add_bookZZ"
+                android:hint="作者"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="5dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_C"
+            android:id="@+id/add_D">
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="40dp"
+android:textSize="10dp"
+                android:text="出版日期:"/>
+            <EditText
+                android:id="@+id/add_bookData"
+                android:hint="出版日期"
+                android:inputType="date"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="5dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_D"
+            android:id="@+id/add_E">
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="40dp"
+
+                android:text="数量:"/>
+            <EditText
+                android:id="@+id/add_bookumb"
+                android:hint="数量"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="5dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_E"
+            android:id="@+id/add_F">
+            <TextView
+                android:layout_width="50sp"
+                android:layout_height="40dp"
+
+                android:text="简介 :"/>
+            <EditText
+                android:id="@+id/add_bookjj"
+                android:hint="简介"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="10dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="5dp"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/add_F"
+            android:id="@+id/add_G">
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:id="@+id/add_bookxg"
+                android:layout_height="45dp"
+                android:text="添加"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

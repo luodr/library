@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.sinlo.bookmanage.bookmanage">
+    <!--    -->
+    <application
+        android:allowBackup="true"
+
+        android:icon="@drawable/logo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IndexActivity"
+            android:label="@string/indextitle"
+            />
+
+        <activity android:name=".ModifyActivity" android:label="@string/modifyUser" />
+        <activity android:name=".BookIndex"/>
+        <activity android:name=".BorrowBooks"   android:label="@string/Borrowbook"  />
+        <activity android:name=".Confirmthebook"/>
+        <activity android:name=".AlsoBook"   android:label="@string/Alsobook"  />
+
+        <activity android:name=".BookManage"   android:label="@string/booktitle" />
+        <activity android:name=".ModifyBook"  android:label="@string/modifybook"/>
+        <activity android:name=".AddBook" android:label="@string/addbook"/>
+        <activity android:name=".InitActivity" />`
+        <activity android:name=".AddUserActivity" android:label="@string/addUser"/>
+        <activity android:name=".ABook" android:label="@string/xzAlsoBook"/>
+        <activity android:name=".xzUserActivity" android:label="@string/xzUser"/>
+        <activity android:name=".XZBook" android:label="@string/xzBook"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">图书管理</string>
+    <string name="booktitle">图书管理</string>
+    <string name="indextitle">用户管理</string>
+    <string name="addbook">添加图书</string>
+<string name="modifybook">修改图书</string>
+    <string name="Alsobook">还书</string>
+    <string name="Borrowbook">借书</string>
+    <string name="modifyUser">修改用户</string>
+    <string name="xzUser">选择借书用户</string>
+    <string name="xzBook">选择需借的书</string>
+    <string name="xzAlsoBook">选择还书</string>
+    <string name="addUser">添加用户</string>
+    </resources>

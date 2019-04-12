@@ -1,0 +1,170 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="portrait"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+
+    >
+<RelativeLayout
+
+    android:layout_width="260dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_vertical|center_horizontal"
+
+>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/add_A">
+    <TextView
+        android:layout_width="50sp"
+        android:layout_height="40dp"
+
+        android:text="用户名:"/>
+    <EditText
+        android:id="@+id/add_nameEdit"
+        android:hint="手机号/学号/用户名"
+        android:drawablePadding="8dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="10dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="5dp"
+
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_A"
+        android:id="@+id/add_B">
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="40dp"
+
+            android:text="密     码:"/>
+        <EditText
+            android:id="@+id/add_AgeEdit"
+            android:hint="请输入密码"
+           android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="5dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_B"
+        android:id="@+id/add_C">
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="40dp"
+
+            android:text="姓     名:"/>
+        <EditText
+            android:id="@+id/add_userEdit"
+            android:hint="请输入姓名"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="5dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_C"
+        android:id="@+id/add_D">
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="40dp"
+
+            android:text="邮     箱:"/>
+        <EditText
+            android:id="@+id/add_userEmail"
+            android:hint="邮箱"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="5dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_D"
+        android:id="@+id/add_E">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:text="手机号:"/>
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/add_userContact"
+            android:hint="手机号:"
+            android:drawablePadding="8dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="10dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="5dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_E"
+        android:id="@+id/add_F">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:text="权   限 :"/>
+        <Spinner
+            android:id="@+id/add_userSpinner"
+            android:layout_width="match_parent"
+            android:hint="联系方式"
+            android:drawablePadding="8dp"
+            android:entries="@array/data"
+            android:layout_height="30dp"
+              >
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_F"
+        android:id="@+id/add_G">
+        <Button
+
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+
+            android:id="@+id/add_registration"
+            android:layout_height="45dp"
+            android:layout_below="@id/add_userSpinner"
+
+            android:text="添加"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+    </RelativeLayout>
